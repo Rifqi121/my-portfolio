@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-family: Poppins, serif;
+}
+
+/* Custom Scrollbar untuk Modal */
+.modal-content {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #1f2937; /* Scrollbar abu-abu */
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 8px; /* Lebar scrollbar */
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: #1f2937; /* Warna track */
+  border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Warna thumb scrollbar */
+  border-radius: 10px;
+  border: 2px solid #1f2937;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7280; /* Warna hover */
+}
+
+/* Efek Hover untuk Semua Tombol */
+.btn-hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.btn-hover:hover {
+  background: linear-gradient(90deg, #2563eb, #9333ea); /* Efek gradient */
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Efek Hover untuk Span Tools */
+.tool-hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #374151;
+  color: white;
+}
+
+.tool-hover:hover {
+  background: linear-gradient(90deg, #2563eb, #9333ea); /* Gradient */
+  transform: scale(1.1);
+  color: #fff;
+}
+
+/* Efek Hover pada Modal Close Button */
+.close-btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.close-btn:hover {
+  transform: scale(1.2);
+  color: #f87171;
+}
+
