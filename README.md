@@ -1,3 +1,18 @@
+# 🎨 Portfolio Website  
+
+Repository ini berisi **Portfolio Website** yang dibangun menggunakan **React.js**. Selain itu, saya juga telah membuat versi **Next.js**, yang dapat ditemukan di branch `NextJSver`.  
+
+## 🚀 Versi yang Tersedia  
+
+- **`main` branch** → Dibangun dengan **React.js**  
+- **`NextJSver` branch** → Dibangun dengan **Next.js** (https://github.com/Rifqi121/my-portfolio/tree/NextJSver)
+
+## 🔗 Live Demo  
+Kamu bisa mencoba website yang sudah dideploy di Vercel melalui tautan berikut:  
+
+➡️ **[Testing Portfolio Live Demo](https://testing-portfolio-rifqi121-rifqi121s-projects.vercel.app)**  
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
