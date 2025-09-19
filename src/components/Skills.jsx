@@ -1,4 +1,4 @@
-const skills = ["HTML", "CSS", "Tailwind CSS", "JavaScript", "Laravel", "Bootstrap","Git", "React"];
+const skills = ["HTML", "CSS", "Tailwind CSS", "JavaScript", "Laravel", "Bootstrap","Git", "React", "NodeJS"];
 
 const Skills = () => {
   return (
