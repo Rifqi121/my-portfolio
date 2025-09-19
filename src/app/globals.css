@@ -84,3 +84,27 @@ body {
   transform: scale(1.2);
   color: #f87171;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  transition-property: color, background-color, border-color;
+  transition-duration: 300ms;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #000;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #fff;
+  font-size: 1.5rem !important; 
+  font-weight: bold; 
+  transition: all 0.3s ease-in-out; 
+}
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after {
+  color: #e5e7eb; /* Tailwind's text-gray-200 */
+  transform: scale(1.1);
+}
