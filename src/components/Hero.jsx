@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="md:w-1/2 flex flex-col items-center md:items-start mt-6 md:mt-0">
         <h1 className="text-4xl md:text-5xl font-bold">Hi There👋</h1>
         <h2 className="text-2xl md:text-4xl font-bold mt-2">I'm Rifqi Fauzan Adzikra</h2>
-        <p className="text-lg md:text-xl mt-4">Frontend Developer</p>
+        <p className="text-lg md:text-xl mt-4">Developer</p>
 
         {/* Smooth scroll ke Projects */}
         <Link
